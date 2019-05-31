@@ -5,13 +5,13 @@
       <h1>calcuadora somar</h1>
       <div class="row">
         <div class="form-group">
-          <input class="form-control" type="number" name="val1" value="" [(ngModel)]="val1">
+          <input class="form-control" type="number" name="val1" value="" [(ngModel)]="val1">//ngModel faz a ligação da interface com o typescript
         </div>
         <div class="form-grop">
-          <input class="form-control" type="number" name="val2" value="" [(ngModel)]="val2">
+          <input class="form-control" type="number" name="val2" value="" [(ngModel)]="val2">//ngModel faz a ligação da interface com o typescript
         </div>
         <div class="">
-          <button class="btn btn-info" type="button" name="button" (click)="somar()">Somar</button>
+          <button class="btn btn-info" type="button" name="button" (click)="somar()">Somar</button>//ao clicar o botão o "(click)" envia para o typescript os valores dos campos para realizar as operações
         </div>
       </div>
 
